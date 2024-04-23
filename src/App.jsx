@@ -1,5 +1,5 @@
 import logo100x from './assets/100x.svg'
-import Login from './pages/Login'
+import LoginPage from './pages/LoginPage'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
           {/* 100x Logo */}
           <a href><img src={logo100x} alt="100x Logo" className="w-[3.45rem] mx-auto" /></a>
         </header>
-        <Login />
+        <LoginPage />
       </div>
     </>
   )
