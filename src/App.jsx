@@ -1,5 +1,5 @@
 import logo100x from './assets/100x.svg'
-import LoginPage from './pages/LoginPage'
+import LoginPage from './components/pages/Login/LoginPage'
 
 function App() {
   return (

@@ -1,5 +1,5 @@
-import CreateAccountButton from '../components/CreateAccountButton'
-import SignInButton from '../components/SignInButton'
+import CreateAccountButton from '../../buttons/CreateAccountButton'
+import SignInButton from '../../buttons/SignInButton'
 
 export default function LoginPage() {
     return (
