@@ -1,4 +1,5 @@
 import BackButton from '../../buttons/BackButton'
+import NextButton from '../../buttons/NextButton'
 
 export default function CreateAccountStep3() {
     return (
@@ -33,13 +34,7 @@ export default function CreateAccountStep3() {
                 </section>
                 <section className="flex-grow flex items-end">
                     {/* Next Button */}
-                    <a href="./create-account-step-4.html" className="w-full">
-                        <button className="bg-neutral-500 py-3 px-6 w-full rounded-1.88 shadow-sh-1 backdrop-blur-xl">
-                            <p className="text-neutral-1000 font-bold">
-                                Next
-                            </p>
-                        </button>
-                    </a>
+                    <NextButton />
                 </section>
             </main>
         </>

@@ -1,4 +1,5 @@
 import BackButton from '../../buttons/BackButton'
+import CreateAccountButton from '../../buttons/CreateAccountButton'
 
 export default function CreateAccountStep1() {
     return (
@@ -188,13 +189,7 @@ export default function CreateAccountStep1() {
                 </section>
                 <section className="px-5 flex-grow flex items-end">
                     {/* Create Account Button */}
-                    <a href="./create-account-step-2.html" className="w-full">
-                        <button className="bg-neutral-500 py-2 px-6 w-full rounded-4.06 shadow-sh-1 backdrop-blur-xl">
-                            <p className="text-neutral-1000 font-bold">
-                                Create Account
-                            </p>
-                        </button>
-                    </a>
+                    <CreateAccountButton />
                 </section>
             </main>
         </>

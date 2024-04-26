@@ -1,4 +1,5 @@
 import BackButton from '../../buttons/BackButton'
+import SignUpButton from '../../buttons/SignUpButton'
 
 export default function CreateAccountStep2() {
     return (
@@ -43,13 +44,7 @@ export default function CreateAccountStep2() {
                 </section>
                 <section className="flex-grow flex items-end">
                     {/* Sign Up Button */}
-                    <a href="./create-account-step-3.html" className="w-full">
-                        <button className="bg-blue-default hover:bg-blue-hover p-5 w-full rounded-625 shadow-sh-1 backdrop-blur-xl">
-                            <p className="text-neutral-50 font-bold">
-                                Sign Up
-                            </p>
-                        </button>
-                    </a>
+                    <SignUpButton />
                 </section>
             </main>
         </>
